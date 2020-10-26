@@ -1,17 +1,57 @@
 /* *********************************** */
+
+
 /* *** ESTILOS GENERALES *** */
+
+
 /* *********************************** */
 
+
 /* Tipografía */
+
 @font-face {
     font-family: "";
-    src: url("") format("woff2"),
-         url("") format("woff");
+    src: url("") format("woff2"), url("") format("woff");
 }
 
-/* ******************************** */
+html {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
 
-/* Colores */
 
-/* ******************************** */
+/* ESTABLECER VARIABLES PARA LA PÁGINA */
 
+:root {
+    /* Colores */
+    --color-01: #BCB69C;
+    --color-02: #DB7F1F;
+    --color-03: #707070;
+    --color-04: #502B13;
+    --color-05: #FFEBC9;
+    --color-06: #FEC35E;
+    --color-07: #FE9901;
+    --color-08: #ADADAD;
+    --color-white: #ffffff;
+    --color-black: #000000;
+}
+
+
+/* Reseteo de las propiedas preestablecidas de margin, padding y border */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+
+/* Quitar decoración de los enlaces y listas */
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}

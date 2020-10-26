@@ -1,4 +1,162 @@
-/* *********************************** */
-/* *** Estilos SOLO para index.html *** */
-/* *********************************** */
+/* Colores de fondo */
 
+body {
+    background-color: var(--color-01);
+    /* Ancho de página */
+    width: 1366px;
+    padding: 300px 85px 0px 85px;
+}
+
+#container {
+    background-color: var(--color-02);
+    height: 100%;
+    padding: 101px;
+}
+
+
+/* Estructura del menú de navegación */
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* Estructura del principio del texto */
+
+.main__banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: var(--color-white);
+}
+
+.banner__text {
+    text-align: justify;
+}
+
+
+/* Estructura de la barra proyectos */
+
+.proyectos__barra {
+    height: 100px;
+    background: transparent linear-gradient(270deg, var(--color-05) 0%, var(--color-06) 100%) padding-box;
+    border-radius: 50px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+
+/* Estructura de la grilla de recuadros y texto. */
+
+.main__lista {
+    display: grid;
+    grid-template-rows: repeat(6, 1fr);
+    gap: 30px 0;
+}
+
+.lista__row01,
+.lista__row02,
+.lista__row03,
+.lista__row04,
+.lista__row05,
+.lista__row06 {
+    grid-row: 1/2;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lista__row02 {
+    grid-row: 2/3;
+}
+
+.lista__row03 {
+    grid-row: 3/4;
+}
+
+.lista__row04 {
+    grid-row: 4/5;
+}
+
+.lista__row05 {
+    grid-row: 5/6;
+}
+
+.lista__row06 {
+    grid-row: 6/7;
+}
+
+.row01__bloque,
+.row02__bloque,
+.row03__bloque,
+.row04__bloque,
+.row05__bloque,
+.row06__bloque {
+    width: 377px;
+    height: 357px;
+    background-color: var(--color-06);
+    border: 1px solid var(--color-03);
+    border-radius: 0px 92px 0px 89px;
+    padding: 18px 10px 18px 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bloque01__img,
+.bloque02__img,
+.bloque03__img,
+.bloque04__img,
+.bloque05__img,
+.bloque06__img {
+    width: 100%;
+    height: 100%;
+    background: var(--color-white);
+    border: 5px solid var(--color-04);
+    border-radius: 0px 92px 0px 89px;
+}
+
+.row01__text,
+.row02__text,
+.row03__text,
+.row04__text,
+.row05__text,
+.row06__text {
+    width: 574px;
+    text-align: left;
+    color: var(--color-white);
+    line-height: 22px;
+}
+
+.row02__text,
+.row04__text,
+.row06__text {
+    text-align: right;
+}
+
+
+/* Estructura de la barra contactar */
+
+.contactar__barra {
+    height: 100px;
+    background: transparent linear-gradient(270deg, var(--color-05) 0%, var(--color-06) 100%) padding-box;
+    border-radius: 50px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+
+/* Estructura del formulario */
+
+
+/* Posición imagen footer */
+
+.footer {
+    width: 100%;
+}
+
+.footer__img {
+    width: 100%;
+}
