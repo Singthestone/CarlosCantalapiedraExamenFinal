@@ -21,18 +21,40 @@ body {
     justify-content: space-between;
 }
 
+.header__nav a {
+    color: var(--color-04);
+    font: normal normal normal 37px/52px Arial Black;
+    margin-bottom: 74px;
+}
 
-/* Estructura del principio del texto */
+
+/* Estructura del banner */
 
 .main__banner {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    /* align-items: center; */
     color: var(--color-white);
 }
 
+.banner__img {
+    margin-bottom: 149px;
+}
+
+.banner__title {
+    font-size: 18px;
+    font-weight: bold;
+    /*     margin-bottom: 18px; */
+}
+
 .banner__text {
-    text-align: justify;
+    line-height: 22px;
+}
+
+.main__banner {
+    position: relative;
+    top: -320px;
 }
 
 
