@@ -65,8 +65,27 @@ body {
     background: transparent linear-gradient(270deg, var(--color-05) 0%, var(--color-06) 100%) padding-box;
     border-radius: 50px;
     display: flex;
-    align-content: center;
+    align-content: right;
     justify-content: center;
+    z-index: 0;
+    position: relative;
+}
+
+.barra__text {
+    font: normal normal normal 37px/52px Arial Black;
+    color: var(--color-04);
+    align-self: center;
+}
+
+.proyectos__img1 {
+    position: absolute;
+    z-index: 1;
+    top: 2020px;
+    left: 33px;
+}
+
+.proyectos__otras {
+    align-self: flex-end;
 }
 
 
